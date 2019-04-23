@@ -1,0 +1,41 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Report Functionality",
+        "description": "",
+        "id": "report;report-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 145955408,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.IntelliTest.stepdefinitions.Report_StepsDefinition.user_is_on_report_page(Report_StepsDefinition.java:27)\r\n\tat ✽.Given user is on report page(features/Report.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on report page",
+            "match": {
+              "location": "Report_StepsDefinition.user_is_on_report_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Report",
+    "description": "",
+    "id": "report",
+    "keyword": "Feature",
+    "uri": "features/Report.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@default"
+      }
+    ]
+  }
+]
